@@ -1,0 +1,64 @@
+[28-Oct-2022 08:00:52 UTC] PHP Warning:  require_once(/inc/connection.php): Failed to open stream: No such file or directory in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 27
+[28-Oct-2022 08:00:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/inc/connection.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php:27
+Stack trace:
+#0 /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php(2): require_once()
+#1 /home/joymojum/joymojumder.icu/eCommerce/admin/index.php(1): require_once('/home/joymojum/...')
+#2 {main}
+  thrown in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 27
+[28-Oct-2022 08:01:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:05:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:05:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:05:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:05:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:06:01 UTC] PHP Warning:  Undefined array key "f_name" in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:06:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:06:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:06:15 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:06:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:06:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:06:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:06:48 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:06:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:06:53 UTC] PHP Warning:  Undefined array key "f_name" in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:11:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:11:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 6
+[28-Oct-2022 08:11:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 6
+[28-Oct-2022 08:11:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:11:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:11:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:13:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:13:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:13:03 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:13:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:13:10 UTC] PHP Warning:  Undefined array key "f_name" in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:15:27 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:15:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:15:27 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:15:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:15:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:15:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:15:29 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:15:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:17:28 UTC] PHP Warning:  Undefined array key "f_name" in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:17:38 UTC] PHP Warning:  Undefined array key "f_name" in /home/joymojum/joymojumder.icu/eCommerce/admin/login.php on line 23
+[28-Oct-2022 08:17:38 UTC] PHP Warning:  Undefined variable $_email in /home/joymojum/joymojumder.icu/eCommerce/admin/login.php on line 24
+[28-Oct-2022 08:17:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:17:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:17:38 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:17:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:18:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:18:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:18:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:18:53 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:19:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/admin/inc/connection.php on line 9
+[28-Oct-2022 08:19:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joymojum/joymojumder.icu/eCommerce/admin/index.php:1) in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_header.php on line 10
+[28-Oct-2022 08:19:47 UTC] PHP Warning:  Undefined variable $_SESSION in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172
+[28-Oct-2022 08:19:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/joymojum/joymojumder.icu/eCommerce/admin/partials/_top-nav.php on line 172

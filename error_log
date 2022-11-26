@@ -1,0 +1,23 @@
+[28-Oct-2022 07:42:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 07:44:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 07:44:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 07:46:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 07:48:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 07:56:44 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/joymojum/joymojumder.icu/eCommerce/inc/functions.php:58
+Stack trace:
+#0 /home/joymojum/joymojumder.icu/eCommerce/inc/functions.php(58): mysqli_fetch_assoc(false)
+#1 /home/joymojum/joymojumder.icu/eCommerce/category.php(38): get_product(Object(mysqli), '', '9\\'', '', '', '')
+#2 {main}
+  thrown in /home/joymojum/joymojumder.icu/eCommerce/inc/functions.php on line 58
+[28-Oct-2022 07:57:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/joymojum/joymojumder.icu/eCommerce/inc/functions.php:58
+Stack trace:
+#0 /home/joymojum/joymojumder.icu/eCommerce/inc/functions.php(58): mysqli_fetch_assoc(false)
+#1 /home/joymojum/joymojumder.icu/eCommerce/category.php(38): get_product(Object(mysqli), '', '3\\'', '', '', '')
+#2 {main}
+  thrown in /home/joymojum/joymojumder.icu/eCommerce/inc/functions.php on line 58
+[28-Oct-2022 08:20:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 08:20:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 08:20:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 08:20:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 08:21:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
+[28-Oct-2022 08:21:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joymojum/joymojumder.icu/eCommerce/inc/connection.php on line 9
