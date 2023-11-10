@@ -22,6 +22,3 @@ Ecommerce is an open-source e-commerce platform written in PHP. It allows you to
 4. Update database credential and path from inc/connection.php.
 5. Start the built-in PHP web server with `php -S localhost:8000`
 6. Visit `http://localhost:8000` in your web browser to access the Ecommerce storefront
-
-## Contributing
-We welcome any contributions to Ecommerce. If you'd like to help out, please take a look at the [contributing guidelines](CONTRIBUTING.md) for more information.
